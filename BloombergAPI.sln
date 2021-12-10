@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloombergAPI", "BloombergAPI\BloombergAPI.csproj", "{08D35620-099F-4D42-A4A3-D3414C27CC79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloombergAPI.UnitTest", "BloombergAPI.UnitTest\BloombergAPI.UnitTest.csproj", "{1EBE0BE9-4733-48EF-B0F7-17887484C128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08D35620-099F-4D42-A4A3-D3414C27CC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D35620-099F-4D42-A4A3-D3414C27CC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D35620-099F-4D42-A4A3-D3414C27CC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D35620-099F-4D42-A4A3-D3414C27CC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBE0BE9-4733-48EF-B0F7-17887484C128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBE0BE9-4733-48EF-B0F7-17887484C128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBE0BE9-4733-48EF-B0F7-17887484C128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBE0BE9-4733-48EF-B0F7-17887484C128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
