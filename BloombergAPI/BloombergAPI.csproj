@@ -8,7 +8,7 @@
         <PackageId>BloombergAPI</PackageId>
         <Title>BloombergAPI</Title>
         <Authors>Daniel Idén</Authors>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <PackageDescription>C# Wrapper for Bloomberg Desktop API</PackageDescription>
         <RepositoryUrl>https://github.com/illumen/BloombergAPI</RepositoryUrl>
         <Company>Illumen</Company>
