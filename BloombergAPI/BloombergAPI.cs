@@ -86,7 +86,7 @@ public sealed class BloombergAPI : IDisposable
         IEnumerable<string> securities, IEnumerable<string> fields,
         Dictionary<string, string>? options = null)
     {
-        using var session = _keepAlive && _session != null ? _session : Connect();
+        var session = _keepAlive && _session != null ? _session : Connect();
         var service = _keepAlive && _service != null ? _service : session.GetService(ServiceName);
 
         var request = service.CreateRequest(requestType);
@@ -100,7 +100,6 @@ public sealed class BloombergAPI : IDisposable
 
         session.SendRequest(request, null);
         requestObj.ProcessResponse(session);
-
 
         if (!_keepAlive)
         {
